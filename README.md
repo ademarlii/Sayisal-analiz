@@ -5,7 +5,7 @@ import math
 
 x = math.pi / 5
 
-# ilk terminin hesaplanması
+
 
 tekterimsonucu = 1
 
@@ -20,7 +20,7 @@ print("Kesme Hatası:", kesmehatasi)
 
 print("-"*30)
 
-# ilk iki teriminin hesaplanması
+
 
 ikiterimsonucu = 1 + 0   #birinci türevi sinüs fonksiyonu devreye girdiği içiçn sonuç sıfır oluyor.
 
