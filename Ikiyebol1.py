@@ -8,18 +8,18 @@ def f(x):
 a = 2
 b = 4
 # İterasyon sayısı
-max_iter = 4
+iterasyon = 4
 
 # İterasyonlar
-for i in range(max_iter):
-    x_ort = (a + b) / 2
-    f_ort = f(x_ort)
+for i in range(iterasyon):
+    ort = (a + b) / 2
+    f_ort = f(ort)
 
 
     if f(a) * f_ort < 0:
-        b = x_ort
+        b = ort
     else:
-        a = x_ort
+        a = ort
 
 # Bulunan kök
 print("Bulunan kök:", x_ort)
